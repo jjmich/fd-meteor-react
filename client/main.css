@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  background-color: dimgray;
+  background-image: linear-gradient(to bottom, #a55fac, #e1e5f0 100%);
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+
+header {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #a55fac, #e1e5f0 100%);
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+  width: 90%;
+}
+
+.new-task input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  font-size: 1em;
+}
+
+.new-task input:focus{
+  outline: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background: #e1e5f0;
+}
+
+.delete, .sort {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 24px;
+  border: none;
+  position: relative;
+}
+
+li .upvote, .downvote{
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: white solid 1px;
+}
+
+li .text {
+  margin-left: 10px;
+}
+
+li .votes{
+  margin-left: 10px;
+  margin-right: 10px;
+}
